@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Autonomous Driving | Robotics Researcher
+subtitle: 3D Peception | Autonomous Driving
 
 profile:
   align: right
