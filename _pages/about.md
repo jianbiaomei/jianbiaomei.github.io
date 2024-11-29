@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: 3D Peception | Autonomous Driving
+subtitle: 3D Perception | Autonomous Driving
 
 profile:
   align: right
