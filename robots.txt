@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://jianbiaomei.github.io/sitemap.xml
