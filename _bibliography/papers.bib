@@ -1,3 +1,14 @@
+@article{yang2024driving,
+  title={Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving},
+  author={Yang*, Yu and Mei*, Jianbiao and Ma, Yukai and Du, Siliang and Chen, Wenqing and Qian, Yijie and Feng, Yuxiang and Liu, Yong},
+  journal={Association for the Advancement of Artificial Intelligence (AAAI)},
+  year={2025},
+  arxiv       = {2408.14197},
+  bibtex_show = {true},
+  abbr        = {AAAI},
+  selected    = {true},
+  abstract    = {World models envision potential future states based on various ego actions. They embed extensive knowledge about the driving environment, facilitating safe and scalable autonomous driving. Most existing methods primarily focus on either data generation or the pretraining paradigms of world models. Unlike the aforementioned prior works, we propose Drive-OccWorld, which adapts a vision-centric 4D forecasting world model to end-to-end planning for autonomous driving. Specifically, we first introduce a semantic and motion-conditional normalization in the memory module, which accumulates semantic and dynamic information from historical BEV embeddings. These BEV features are then conveyed to the world decoder for future occupancy and flow forecasting, considering both geometry and spatiotemporal modeling. Additionally, we propose injecting flexible action conditions, such as velocity, steering angle, trajectory, and commands, into the world model to enable controllable generation and facilitate a broader range of downstream applications. Furthermore, we explore integrating the generative capabilities of the 4D world model with end-to-end planning, enabling continuous forecasting of future states and the selection of optimal trajectories using an occupancy-based cost function. Extensive experiments on the nuScenes dataset demonstrate that our method can generate plausible and controllable 4D occupancy, opening new avenues for driving world generation and end-to-end planning.}
+}
 @article{mei2024dreamforge,
   title={DreamForge: Motion-Aware Autoregressive Video Generation for Multi-View Driving Scenes},
   author={Mei, Jianbiao and Yang, Xuemeng and Wen, Licheng and Hu Tao and Yu Yang and Wei, Tiantian and Ma, Yukai and Dou, Min and Shi, Botian and Liu, Yong},
@@ -153,20 +164,6 @@
   code        = {https://github.com/sallymmx/TransVOS},
   selected    = {true},
   abstract    = {Recently, Space-Time Memory Network (STM) based methods have achieved state-of-the-art performance in semi-supervised video object segmentation (VOS). A crucial problem in this task is how to model the dependency both among different frames and inside every frame. However, most of these methods neglect the spatial relationships (inside each frame) and do not make full use of the temporal relationships (among different frames). In this paper, we propose a new transformer-based framework, termed TransVOS, introducing a vision transformer to fully exploit and model both the temporal and spatial relationships. Moreover, most STM-based approaches employ two separate encoders to extract features of two significant inputs, i.e., reference sets (history frames with predicted masks) and query frame (current frame), respectively, increasing the models' parameters and complexity. To slim the popular two-encoder pipeline while keeping the effectiveness, we design a single two-path feature extractor to encode the above two inputs in a unified way. Extensive experiments demonstrate the superiority of our TransVOS over state-of-the-art methods on both DAVIS and YouTube-VOS datasets.}
-}
-
-
-
-@article{yang2024driving,
-  title={Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving},
-  author={Yang*, Yu and Mei*, Jianbiao and Ma, Yukai and Du, Siliang and Chen, Wenqing and Qian, Yijie and Feng, Yuxiang and Liu, Yong},
-  journal={arXiv preprint arXiv:2408.14197},
-  year={2024},
-  arxiv       = {2408.14197},
-  bibtex_show = {true},
-  abbr        = {Preprint},
-  selected    = {true},
-  abstract    = {World models envision potential future states based on various ego actions. They embed extensive knowledge about the driving environment, facilitating safe and scalable autonomous driving. Most existing methods primarily focus on either data generation or the pretraining paradigms of world models. Unlike the aforementioned prior works, we propose Drive-OccWorld, which adapts a vision-centric 4D forecasting world model to end-to-end planning for autonomous driving. Specifically, we first introduce a semantic and motion-conditional normalization in the memory module, which accumulates semantic and dynamic information from historical BEV embeddings. These BEV features are then conveyed to the world decoder for future occupancy and flow forecasting, considering both geometry and spatiotemporal modeling. Additionally, we propose injecting flexible action conditions, such as velocity, steering angle, trajectory, and commands, into the world model to enable controllable generation and facilitate a broader range of downstream applications. Furthermore, we explore integrating the generative capabilities of the 4D world model with end-to-end planning, enabling continuous forecasting of future states and the selection of optimal trajectories using an occupancy-based cost function. Extensive experiments on the nuScenes dataset demonstrate that our method can generate plausible and controllable 4D occupancy, opening new avenues for driving world generation and end-to-end planning.}
 }
 
 @article{yang2024dqformer,
