@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Autonomous Driving
+subtitle: 3D Perception | Embodied AI
 
 profile:
   align: right
