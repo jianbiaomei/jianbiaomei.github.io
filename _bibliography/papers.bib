@@ -1,7 +1,7 @@
 @article{yang2024driving,
   title={Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving},
   author={Yang*, Yu and Mei*, Jianbiao and Ma, Yukai and Du, Siliang and Chen, Wenqing and Qian, Yijie and Feng, Yuxiang and Liu, Yong},
-  journal={AAAI Conference on Artificial Intelligence (AAAI)},
+  journal={AAAI Conference on Artificial Intelligence (AAAI) [oral]},
   year={2025},
   arxiv       = {2408.14197},
   bibtex_show = {true},
@@ -76,7 +76,7 @@
   bibtex_show = {true},
   abbr        = {APIN},
   pdf         = {https://link.springer.com/article/10.1007/s10489-024-05486-y},
-  selected    = {true},
+  selected    = {false},
   abstract    = {Video object segmentation (VOS) has made significant progress with matching-based methods, but most approaches still show two problems. Firstly, they apply a complicated and redundant two-extractor pipeline to use more reference frames for cues, increasing the models’ parameters and complexity. Secondly, most of these methods neglect the spatial relationships (inside each frame) and do not fully model the temporal relationships (among different frames), i.e., they need adequate modeling of spatial-temporal relationships. In this paper, to address the two problems, we propose a unified transformer-based framework for VOS, a compact and unified single-extractor pipeline with strong spatial and temporal interaction ability. Specifically, to slim the common-used two-extractor pipeline while keeping the model’s effectiveness and flexibility, we design a single dynamic feature extractor with an ingenious dynamic input adapter to encode two significant inputs, i.e., reference sets (historical frames with predicted masks) and query frame (current frame), respectively. Moreover, the relationships among different frames and inside every frame are crucial for this task. We introduce a vision transformer to exploit and model both the temporal and spatial relationships simultaneously. By the cascaded design of the proposed dynamic feature extractor, transformer-based relationship module, and target-enhanced segmentation, our model implements a unified and compact pipeline for VOS. Extensive experiments demonstrate the superiority of our model over state-of-the-art methods on both DAVIS and YouTube-VOS datasets. We also explore potential solutions, such as sequence organizers, to improve the model’s efficiency. On DAVIS17 validation, we achieve ~50% faster inference speed with only a slight 0.2% (J&F) drop in segmentation quality.}
 }
 
@@ -119,7 +119,7 @@
   abbr        = {IROS},
   arxiv       = {2306.15348},
   code        = {https://github.com/Jieqianyu/PANet},
-  selected    = {true},
+  selected    = {false},
   abstract    = {Reliable LiDAR panoptic segmentation (LPS), including both semantic and instance segmentation, is vital for many robotic applications, such as autonomous driving. This work proposes a new LPS framework named PANet to eliminate the dependency on the offset branch and improve the performance on large objects, which are always over-segmented by clustering algorithms. Firstly, we propose a non-learning Sparse Instance Proposal (SIP) module with the ``sampling-shifting-grouping" scheme to directly group thing points into instances from the raw point cloud efficiently. More specifically, balanced point sampling is introduced to generate sparse seed points with more uniform point distribution over the distance range. And a shift module, termed bubble shifting, is proposed to shrink the seed points to the clustered centers. Then we utilize the connected component label algorithm to generate instance proposals. Furthermore, an instance aggregation module is devised to integrate potentially fragmented instances, improving the performance of the SIP module on large objects. Extensive experiments show that PANet achieves state-of-the-art performance among published works on the SemanticKITII validation and nuScenes validation for the panoptic segmentation task.}
 }
 
