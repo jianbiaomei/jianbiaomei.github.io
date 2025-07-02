@@ -1,3 +1,27 @@
+@article{wu2025kg,
+  title={X-Scene: Large-Scale Driving Scene Generation with High Fidelity and Flexible Controllability},
+  author={Yang, Yu and Liang, Alan and Mei, Jianbiao and Ma, Yukai and Liu, Yong and Lee, Gim Hee},
+  year={2025},
+  arxiv={2506.13558},
+  bibtex_show = {true},
+  abbr        = {Preprint},
+  demo        = {https://x-scene.github.io/}, 
+  selected    = {false},
+  abstract    = {Diffusion models are advancing autonomous driving by enabling realistic data synthesis, predictive end-to-end planning, and closed-loop simulation, with a primary focus on temporally consistent generation. However, the generation of large-scale 3D scenes that require spatial coherence remains underexplored. In this paper, we propose X-Scene, a novel framework for large-scale driving scene generation that achieves both geometric intricacy and appearance fidelity, while offering flexible controllability. Specifically, X-Scene supports multi-granular control, including low-level conditions such as user-provided or text-driven layout for detailed scene composition and high-level semantic guidance such as user-intent and LLM-enriched text prompts for efficient customization. To enhance geometrical and visual fidelity, we introduce a unified pipeline that sequentially generates 3D semantic occupancy and the corresponding multiview images, while ensuring alignment between modalities. Additionally, we extend the generated local region into a large-scale scene through consistency-aware scene outpainting, which extrapolates new occupancy and images conditioned on the previously generated area, enhancing spatial continuity and preserving visual coherence. The resulting scenes are lifted into high-quality 3DGS representations, supporting diverse applications such as scene exploration. Comprehensive experiments demonstrate that X-Scene significantly advances controllability and fidelity for large-scale driving scene generation, empowering data generation and simulation for autonomous driving.}
+}
+
+@article{wu2025kg,
+    title={KG-TRACES: Enhancing Large Language Models with Knowledge Graph-constrained Trajectory Reasoning and Attribution Supervision},
+    author={Wu, Rong and Cai, Pinlong and Mei, Jianbiao and Wen, Licheng and Hu, Tao and Yang, Xuemeng and Fu, Daocheng and Shi, Botian},
+    year={2025},
+    arxiv={2506.00783},
+    bibtex_show = {true},
+    abbr        = {Preprint},
+    demo        = {https://github.com/KnowledgeXLab/KG-TRACES}, 
+    selected    = {false},
+    abstract    = {Large language models (LLMs) have made remarkable strides in various natural language processing tasks, but their performance on complex reasoning problems remains hindered by a lack of explainability and trustworthiness. This issue, often manifesting as hallucinations or unattributable reasoning processes, limits their applicability in complex reasoning scenarios. To address this, we propose Knowledge Graph-constrained Trajectory Reasoning Attribution and Chain Explanation Supervision (KG-TRACES), a novel framework that enhances the reasoning ability of LLMs through explicit supervision over reasoning paths and processes. KG-TRACES jointly supervises the model to: (1) predict symbolic relation paths, (2) predict full triple-level reasoning paths, and (3) generate attribution-aware reasoning processes grounded in the reasoning paths. At inference phase, the model adapts to both KG-available and KG-unavailable scenarios, retrieving reasoning paths from a KG when possible or predicting plausible reasoning paths with only intrinsic knowledge when not. This design enables the model to reason in an explainable and source-attributable pattern. Through extensive experiments on complex reasoning tasks, we demonstrate that KG-TRACES significantly outperforms existing SOTA: it improves Hits@1 by 1.6% and F1 by 4.7% on WebQSP, and achieves improvements of 4.8% in Hits@1 and 2.1% in F1 on CWQ. Moreover, we show its transferability to specialized domains such as medicine. By visualizing the intermediate steps of reasoning processes, we further show that the explicit supervision introduced by KG-TRACES leads to more stable and goal-directed reasoning processes, aligning closely with correct answers.}
+}
+
 @article{mei2025o2searcher,
     title={O$^2$-Searcher: A Searching-based Agent Model for Open-Domain Open-Ended Question Answering},
     author={Mei*, Jianbiao and Hu*, Tao and Fu*, Daocheng and Wen, Licheng and Yang, Xuemeng and Wu, Rong and Cai, Pinlong and Cai, Xinyu and Gao, Xing and Yang, Yu and Xie, Chengjun and Shi, Botian and Liu, Yong and Qiao, Yu},
@@ -5,7 +29,7 @@
     arxiv={2505.16582},
     bibtex_show = {true},
     abbr        = {Preprint},
-    demo        = {https://github.com/Acade-Mate/O2-Searcher}, 
+    demo        = {https://github.com/KnowledgeXLab/O2-Searcher}, 
     selected    = {true},
     abstract    = {Large Language Models (LLMs), despite their advancements, are fundamentally limited by their static parametric knowledge, hindering performance on tasks requiring open-domain up-to-date information. While enabling LLMs to interact with external knowledge environments is a promising solution, current efforts primarily address closed-end problems. Open-ended questions, which characterized by lacking a standard answer or providing non-unique and diverse answers, remain underexplored. To bridge this gap, we present O$^2$-Searcher, a novel search agent leveraging reinforcement learning to effectively tackle both open-ended and closed-ended questions in the open domain. O$^2$-Searcher leverages an efficient, locally simulated search environment for dynamic knowledge acquisition, effectively decoupling the external world knowledge from model's sophisticated reasoning processes. It employs a unified training mechanism with meticulously designed reward functions, enabling the agent to identify problem types and adapt different answer generation strategies. Furthermore, to evaluate performance on complex open-ended tasks, we construct O$^2$-QA, a high-quality benchmark featuring 300 manually curated, multi-domain open-ended questions with associated web page caches. Extensive experiments show that O$^2$-Searcher, using only a 3B model, significantly surpasses leading LLM agents on O$^2$-QA. It also achieves SOTA results on various closed-ended QA benchmarks against similarly-sized models, while performing on par with much larger ones.}
 }
@@ -25,7 +49,7 @@
 
 @article{mei2024dreamforge,
   title={DreamForge: Motion-Aware Autoregressive Video Generation for Multi-View Driving Scenes},
-  author={Mei, Jianbiao and Yang, Xuemeng and Wen, Licheng and Hu Tao and Yu Yang and Wei, Tiantian and Ma, Yukai and Dou, Min and Shi, Botian and Liu, Yong},
+  author={Mei*, Jianbiao and Hu*, Tao and Wen, Licheng and Yang, Xuemeng and Yang, Yu and Wei, Tiantian and Ma, Yukai and Dou, Min and Shi, Botian and Liu, Yong},
   journal={arXiv preprint arXiv:2409.04003},
   year={2024},
   arxiv       = {2409.04003},
@@ -38,12 +62,12 @@
 
 @article{yang2024drivearena,
   title={Drivearena: A closed-loop generative simulation platform for autonomous driving},
-  author={Yang*, Xuemeng and Wen*, Licheng and Ma*, Yukai and Mei*, Jianbiao and Li*, Xin and Wei*, Tiantian and Lei, Wenjie and Fu, Daocheng and Cai, Pinlong and Dou, Min and others},
+  author={Yang*, Xuemeng and Wen*, Licheng and Wei*, Tiantian and Ma*, Yukai and Mei*, Jianbiao and Li*, Xin and Lei, Wenjie and Fu, Daocheng and Cai, Pinlong and Dou, Min and others},
   journal={arXiv preprint arXiv:2408.00415},
-  year={2024},
+  year={2025},
   arxiv       = {2408.00415},
   bibtex_show = {true},
-  abbr        = {Preprint},
+  abbr        = {ICCV},
   code        = {https://github.com/pjlab-adg/DriveArena},
   demo        = {https://pjlab-adg.github.io/DriveArena/},
   selected    = {true},
