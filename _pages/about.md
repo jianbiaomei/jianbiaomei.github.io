@@ -2,7 +2,6 @@
 layout: about
 title: About
 permalink: /
-subtitle: 3D Perception | Embodied AI
 
 profile:
   align: right
