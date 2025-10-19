@@ -25,4 +25,4 @@ The following are my current research interests:
 <!-- See also [list of publications](/publications). -->
 - 3D Perception
 - World Models
-- Embodied AI
+- Multimodal Large Language Models
