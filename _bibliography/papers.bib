@@ -1,12 +1,12 @@
-(@article{wu2025kg,
+(@article{yang2025x,
   title={X-Scene: Large-Scale Driving Scene Generation with High Fidelity and Flexible Controllability},
   author={Yang, Yu and Liang, Alan and Mei, Jianbiao and Ma, Yukai and Liu, Yong and Lee, Gim Hee},
   year={2025},
   arxiv={2506.13558},
   bibtex_show = {true},
-  abbr        = {Preprint},
+  abbr        = {NeurIPS 2025},
   demo        = {https://x-scene.github.io/}, 
-  selected    = {false},
+  selected    = {true},
   abstract    = {Diffusion models are advancing autonomous driving by enabling realistic data synthesis, predictive end-to-end planning, and closed-loop simulation, with a primary focus on temporally consistent generation. However, the generation of large-scale 3D scenes that require spatial coherence remains underexplored. In this paper, we propose X-Scene, a novel framework for large-scale driving scene generation that achieves both geometric intricacy and appearance fidelity, while offering flexible controllability. Specifically, X-Scene supports multi-granular control, including low-level conditions such as user-provided or text-driven layout for detailed scene composition and high-level semantic guidance such as user-intent and LLM-enriched text prompts for efficient customization. To enhance geometrical and visual fidelity, we introduce a unified pipeline that sequentially generates 3D semantic occupancy and the corresponding multiview images, while ensuring alignment between modalities. Additionally, we extend the generated local region into a large-scale scene through consistency-aware scene outpainting, which extrapolates new occupancy and images conditioned on the previously generated area, enhancing spatial continuity and preserving visual coherence. The resulting scenes are lifted into high-quality 3DGS representations, supporting diverse applications such as scene exploration. Comprehensive experiments demonstrate that X-Scene significantly advances controllability and fidelity for large-scale driving scene generation, empowering data generation and simulation for autonomous driving.}
 }
 
@@ -30,7 +30,7 @@
     bibtex_show = {true},
     abbr        = {Preprint},
     demo        = {https://github.com/KnowledgeXLab/O2-Searcher}, 
-    selected    = {true},
+    selected    = {false},
     abstract    = {Large Language Models (LLMs), despite their advancements, are fundamentally limited by their static parametric knowledge, hindering performance on tasks requiring open-domain up-to-date information. While enabling LLMs to interact with external knowledge environments is a promising solution, current efforts primarily address closed-end problems. Open-ended questions, which characterized by lacking a standard answer or providing non-unique and diverse answers, remain underexplored. To bridge this gap, we present O$^2$-Searcher, a novel search agent leveraging reinforcement learning to effectively tackle both open-ended and closed-ended questions in the open domain. O$^2$-Searcher leverages an efficient, locally simulated search environment for dynamic knowledge acquisition, effectively decoupling the external world knowledge from model's sophisticated reasoning processes. It employs a unified training mechanism with meticulously designed reward functions, enabling the agent to identify problem types and adapt different answer generation strategies. Furthermore, to evaluate performance on complex open-ended tasks, we construct O$^2$-QA, a high-quality benchmark featuring 300 manually curated, multi-domain open-ended questions with associated web page caches. Extensive experiments show that O$^2$-Searcher, using only a 3B model, significantly surpasses leading LLM agents on O$^2$-QA. It also achieves SOTA results on various closed-ended QA benchmarks against similarly-sized models, while performing on par with much larger ones.}
 }
 
@@ -56,7 +56,7 @@
   bibtex_show = {true},
   abbr        = {Preprint},
   demo        = {https://pjlab-adg.github.io/DriveArena/dreamforge},
-  selected    = {true},
+  selected    = {false},
   abstract    = {Recent advances in diffusion models have improved controllable streetscape generation and supported downstream perception and planning tasks. However, challenges remain in accurately modeling driving scenes and generating long videos. To alleviate these issues, we propose DreamForge, an advanced diffusion-based autoregressive video generation model tailored for 3D-controllable long-term generation. To enhance the lane and foreground generation, we introduce perspective guidance and integrate object-wise position encoding to incorporate local 3D correlation and improve foreground object modeling. We also propose motion-aware temporal attention to capture motion cues and appearance changes in videos. By leveraging motion frames and an autoregressive generation paradigm, we can autoregressively generate long videos (over 200 frames) using a 7-frame model, achieving superior quality compared to the baseline in 16-frame video evaluations. Finally, we integrate our method with the realistic simulation platform DriveArena to provide more reliable open-loop and closed-loop evaluations for vision-based driving agents.}
 }
 
@@ -127,7 +127,7 @@
   bibtex_show = {true},
   abbr        = {PRL},
   pdf         = {https://www.sciencedirect.com/science/article/abs/pii/S0167865523003604},
-  selected    = {true},
+  selected    = {false},
   abstract    = {In this paper, we formalize memory- and tracking-based methods to perform the LiDAR-based Video Object Segmentation (VOS) task, which segments points of the specific 3D target (given in the first frame) in a LiDAR sequence. LiDAR-based VOS can directly provide target-aware geometric information for practical application scenarios like behavior analysis and anticipating danger. We first construct a LiDAR-based VOS dataset named KITTI-VOS based on SemanticKITTI, which acts as a testbed and facilitates comprehensive evaluations of algorithm performance. Next, we provide two types of baselines, i.e., memory-based and tracking-based baselines, to explore this task. Specifically, the first memory-based pipeline is built on a space–time memory network equipped with the non-local spatiotemporal attention-based memory bank. We further design a more potent variant to introduce the locality into the spatiotemporal attention module by local self-attention and cross-attention modules. For the second tracking-based baseline, we modify two representative 3D object tracking methods to adapt to LiDAR-based VOS tasks. Finally, we propose a refine module that takes mask priors and generates object-aware kernels, which could boost all the baselines' performance. We evaluate the proposed methods on the dataset and demonstrate their effectiveness.}
 }
 
@@ -151,7 +151,7 @@
   pages={7726--7733},
   year={2023},
   organization={IEEE},
-  selected    = {true},
+  selected    = {false},
   bibtex_show = {true},
   abbr        = {IROS},
   arxiv       = {2306.15348},
@@ -214,7 +214,7 @@
   bibtex_show = {true},
   abbr        = {Preprint},
   code        = {https://github.com/sallymmx/TransVOS},
-  selected    = {true},
+  selected    = {false},
   abstract    = {Recently, Space-Time Memory Network (STM) based methods have achieved state-of-the-art performance in semi-supervised video object segmentation (VOS). A crucial problem in this task is how to model the dependency both among different frames and inside every frame. However, most of these methods neglect the spatial relationships (inside each frame) and do not make full use of the temporal relationships (among different frames). In this paper, we propose a new transformer-based framework, termed TransVOS, introducing a vision transformer to fully exploit and model both the temporal and spatial relationships. Moreover, most STM-based approaches employ two separate encoders to extract features of two significant inputs, i.e., reference sets (history frames with predicted masks) and query frame (current frame), respectively, increasing the models' parameters and complexity. To slim the popular two-encoder pipeline while keeping the effectiveness, we design a single two-path feature extractor to encode the above two inputs in a unified way. Extensive experiments demonstrate the superiority of our TransVOS over state-of-the-art methods on both DAVIS and YouTube-VOS datasets.}
 }
 
@@ -226,7 +226,7 @@
   arxiv       = {2408.15813},
   bibtex_show = {true},
   abbr        = {TGRS},
-  selected    = {true},
+  selected    = {false},
   abstract    = {LiDAR panoptic segmentation, which jointly performs instance and semantic segmentation for things and stuff classes, plays a fundamental role in LiDAR perception tasks. While most existing methods explicitly separate these two segmentation tasks and utilize different branches (i.e., semantic and instance branches), some recent methods have embraced the query-based paradigm to unify LiDAR panoptic segmentation. However, the distinct spatial distribution and inherent characteristics of objects(things) and their surroundings(stuff) in 3D scenes lead to challenges, including the mutual competition of things/stuff and the ambiguity of classification/segmentation. In this paper, we propose decoupling things/stuff queries according to their intrinsic properties for individual decoding and disentangling classification/segmentation to mitigate ambiguity. To this end, we propose a novel framework dubbed DQFormer to implement semantic and instance segmentation in a unified workflow. Specifically, we design a decoupled query generator to propose informative queries with semantics by localizing things/stuff positions and fusing multi-level BEV embeddings. Moreover, a query-oriented mask decoder is introduced to decode corresponding segmentation masks by performing masked cross-attention between queries and mask embeddings. Finally, the decoded masks are combined with the semantics of the queries to produce panoptic results. Extensive experiments on nuScenes and SemanticKITTI datasets demonstrate the superiority of our DQFormer framework.}
 }
 
@@ -256,6 +256,7 @@
   arxiv       = {2207.08132},
   bibtex_show = {true},
   abbr        = {ECCV},
+  selected    = {true},
   code        = {https://github.com/kyleleey/E-NeRV},
   abstract    = {Recently, the image-wise implicit neural representation of videos, NeRV, has gained popularity for its promising results and swift speed compared to regular pixel-wise implicit representations. However, the redundant parameters within the network structure can cause a large model size when scaling up for desirable performance. The key reason of this phenomenon is the coupled formulation of NeRV, which outputs the spatial and temporal information of video frames directly from the frame index input. In this paper, we propose E-NeRV, which dramatically expedites NeRV by decomposing the image-wise implicit neural representation into separate spatial and temporal context. Under the guidance of this new formulation, our model greatly reduces the redundant model parameters, while retaining the representation ability. We experimentally find that our method can improve the performance to a large extent with fewer parameters, resulting in a more than 8x faster speed on convergence.}
 }
@@ -298,6 +299,7 @@
   year={2024},
   bibtex_show = {true},
   abbr        = {AAAI},
+  selected    = {true},
   arxiv       = {2401.11649},
   abstract    = {Recently, the rise of large-scale vision-language pretrained models like CLIP, coupled with the technology of Parameter-Efficient FineTuning (PEFT), has captured substantial attraction in video action recognition. Nevertheless, prevailing approaches tend to prioritize strong supervised performance at the expense of compromising the models' generalization capabilities during transfer. In this paper, we introduce a novel Multimodal, Multi-task CLIP adapting framework named \name to address these challenges, preserving both high supervised performance and robust transferability. Firstly, to enhance the individual modality architectures, we introduce multimodal adapters to both the visual and text branches. Specifically, we design a novel visual TED-Adapter, that performs global Temporal Enhancement and local temporal Difference modeling to improve the temporal representation capabilities of the visual encoder. Moreover, we adopt text encoder adapters to strengthen the learning of semantic label information. Secondly, we design a multi-task decoder with a rich set of supervisory signals to adeptly satisfy the need for strong supervised performance and generalization within a multimodal framework. Experimental results validate the efficacy of our approach, demonstrating exceptional performance in supervised learning while maintaining strong generalization in zero-shot scenarios.}
 }
@@ -312,6 +314,7 @@
   bibtex_show = {true},
   abbr        = {ICRA},
   arxiv       = {2303.06881},
+  selected    = {true},
   abstract    = {Place recognition is a challenging but crucial task in robotics. Current description-based methods may be limited by representation capabilities, while pairwise similarity-based methods require exhaustive searches, which is time-consuming. In this paper, we present a novel coarse-to-fine approach to address these problems, which combines BEV (Bird's Eye View) feature extraction, coarse-grained matching and fine-grained verification. In the coarse stage, our approach utilizes an attention-guided network to generate attention-guided descriptors. We then employ a fast affinity-based candidate selection process to identify the Top-K most similar candidates. In the fine stage, we estimate pairwise overlap among the narrowed-down place candidates to determine the final match. Experimental results on the KITTI and KITTI-360 datasets demonstrate that our approach outperforms state-of-the-art methods.}
 }
 
@@ -323,6 +326,7 @@
   publisher={IEEE},
   bibtex_show = {true},
   abbr        = {TNNLS},
+  selected    = {true},
   pdf         = {https://ieeexplore.ieee.org/document/10323592},
   abstract    = {The canonical approach to video action recognition dictates a neural network model to do a classic and standard 1-of-N majority vote task. They are trained to predict a fixed set of predefined categories, limiting their transferability on new datasets with unseen concepts. In this article, we provide a new perspective on action recognition by attaching importance to the semantic information of label texts rather than simply mapping them into numbers. Specifically, we model this task as a video-text matching problem within a multimodal learning framework, which strengthens the video representation with more semantic language supervision and enables our model to do zero-shot action recognition without any further labeled data or parameters’ requirements. Moreover, to handle the deficiency of label texts and make use of tremendous web data, we propose a new paradigm based on this multimodal learning framework for action recognition, which we dub “pre-train, adapt and fine-tune.” This paradigm first learns powerful representations from pre-training on a large amount of web image-text or video-text data. Then, it makes the action recognition task to act more like pre-training problems via adaptation engineering. Finally, it is fine-tuned end-to-end on target datasets to obtain strong performance. We give an instantiation of the new paradigm, ActionCLIP , which not only has superior and flexible zero-shot/few-shot transfer ability but also reaches a top performance on general action recognition task, achieving 83.8% top-1 accuracy on Kinetics-400 with a ViT-B/16 as the backbone.}
 }
@@ -336,6 +340,7 @@
   organization={IEEE},
   bibtex_show = {true},
   abbr        = {3DV},
+  selected    = {true},
   pdf         = {https://ieeexplore.ieee.org/document/10550656},
   abstract    = {The point cloud-based 3D single object tracking plays an indispensable role in autonomous driving. However, the application of 3D object tracking in the real world is still challenging due to the inherent sparsity and self-occlusion of point cloud data. Therefore, it is necessary to exploit as much useful information from limited data as we can. Since 3D object tracking is a video-level task, the appearance of objects changes gradually over time, and there is rich spatiotemporal contextual information among historical frames. However, existing methods do not fully utilize this information. To address this, we propose a new method called SCTrack, which utilizes a memory-based paradigm to exploit spatiotemporal contextual information. SCTrack incorporates both long-term and short-term memory banks to store the spatiotemporal features of targets from historical frames. By doing so, the tracker can benefit from the entire video sequence and make more informed predictions. Additionally, SCTrack extracts the mask prior to augmenting the target representation, improving the target-background discriminability. Extensive experiments on KITTI, nuScenes, and Waymo Open datasets verify the effectiveness of our proposed method.}
 }
