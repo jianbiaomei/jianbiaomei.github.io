@@ -1,11 +1,62 @@
+@inproceedings{huang2025cogddn,
+  title={Cogddn: A cognitive demand-driven navigation with decision optimization and dual-process thinking},
+  author={Huang, Yuehao and Liu, Liang and Lei, Shuangming and Ma, Yukai and Su, Hao and Mei, Jianbiao and Zhao, Pengxiang and Gu, Yaqing and Liu, Yong and Lv, Jiajun},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM)},
+  year={2025},
+  bibtex_show = {true},
+  abbr        = {ACM MM},
+  selected    = {false},
+  demo        = {https://yuehaohuang.github.io/CogDDN},
+  abstract    = {Mobile robots are increasingly required to navigate and interact within unknown and unstructured environments to meet human demands. Demand-driven navigation (DDN) enables robots to identify and locate objects based on implicit human intent, even when object locations are unknown. However, traditional data-driven DDN methods rely on pre-collected data for model training and decision-making, limiting their generalization capability in unseen scenarios. In this paper, we propose CogDDN, a VLM-based framework that emulates the human cognitive and learning mechanisms by integrating fast and slow thinking systems and selectively identifying key objects essential to fulfilling user demands. CogDDN identifies appropriate target objects by semantically aligning detected objects with the given instructions. Furthermore, it incorporates a dual-process decision-making module, comprising a Heuristic Process for rapid, efficient decisions and an Analytic Process that analyzes past errors, accumulates them in a knowledge base, and continuously improves performance. Chain of Thought (CoT) reasoning strengthens the decision-making process. Extensive closed-loop evaluations on the AI2Thor simulator with the ProcThor dataset show that CogDDN outperforms single-view camera-only methods by 15%, demonstrating significant improvements in navigation accuracy and adaptability.}
+}
+
+@article{wu2025evolver,
+  title={Evolver: Self-evolving llm agents through an experience-driven lifecycle},
+  author={Wu, Rong and Wang, Xiaoman and Mei, Jianbiao and Cai, Pinlong and Fu, Daocheng and Yang, Cheng and Wen, Licheng and Yang, Xuemeng and Shen, Yufan and Wang, Yuxin and others},
+  journal={arXiv preprint arXiv:2510.16079},
+  year={2025},
+  arxiv={2510.16079},
+  bibtex_show = {true},
+  abbr        = {Preprint},
+  selected    = {false},
+  demo        = {https://github.com/Edaizi/EvolveR},
+  abstract    = {Current Large Language Model (LLM) agents show strong performance in tool use, but lack the crucial capability to systematically learn from their own experiences. While existing frameworks mainly focus on mitigating external knowledge gaps, they fail to address a more fundamental limitation: the inability to iteratively refine problem-solving strategies. In this work, we introduce EvolveR, a framework designed to enable agent to self-improve through a complete, closed-loop experience lifecycle. This lifecycle comprises two key stages: (1) Offline Self-Distillation, where the agent's interaction trajectories are synthesized into a structured repository of abstract, reusable strategic principles; (2) Online Interaction, where the agent interacts with tasks and actively retrieves distilled principles to guide its decision-making, accumulating a diverse set of behavioral trajectories. This loop employs a policy reinforcement mechanism to iteratively update the agent based on its performance. We demonstrate the effectiveness of EvolveR on complex multi-hop question-answering benchmarks, where it achieves superior performance over strong agentic baselines. Our work presents a comprehensive blueprint for agents that learn not only from external data but also from the consequences of their own actions, paving the way for more autonomous and continuously improving systems.}
+}
+
+@article{li2025ur,
+  title={UR-Bench: A Benchmark for Multi-Hop Reasoning over Ultra-High-Resolution Images},
+  author={Li, Siqi and Cai, Xinyu and Mei, Jianbiao and Deng, Nianchen and Cai, Pinlong and Wen, Licheng and Shen, Yufan and Yang, Xuemeng and Shi, Botian and Liu, Yong},
+  journal={arXiv preprint arXiv:2601.08748},
+  year={2026},
+  arxiv={2601.08748},
+  bibtex_show = {true},
+  abbr        = {Preprint},
+  selected    = {false},
+  abstract    = {Recent multimodal large language models (MLLMs) show strong capabilities in visual-language reasoning, yet their performance on ultra-high-resolution imagery remains largely unexplored. Existing visual question answering (VQA) benchmarks typically rely on medium-resolution data, offering limited visual complexity. To bridge this gap, we introduce Ultra-high-resolution Reasoning Benchmark (UR-Bench), a benchmark designed to evaluate the reasoning capabilities of MLLMs under extreme visual information. UR-Bench comprises two major categories, Humanistic Scenes and Natural Scenes, covering four subsets of ultra-high-resolution images with distinct spatial structures and data sources. Each subset contains images ranging from hundreds of megapixels to gigapixels, accompanied by questions organized into three levels, enabling evaluation of models' reasoning capabilities in ultra-high-resolution scenarios. We further propose an agent-based framework in which a language model performs reasoning by invoking external visual tools. In addition, we introduce Semantic Abstraction and Retrieval tools that enable more efficient processing of ultra-high-resolution images. We evaluate state-of-the-art models using both an end-to-end MLLMs and our agent-based framework, demonstrating the effectiveness of our framework.}
+}
+
+@article{fu2026agent,
+  title={The Agent's First Day: Benchmarking Learning, Exploration, and Scheduling in the Workplace Scenarios},
+  author={Fu*, Daocheng and Mei* Jianbiao and Wu* Rong and Yang Xuemeng and Xu Jia and Wang Ding and Cai Pinlong and Liu Yong and Wen Licheng and Botian Shi},
+  journal={arXiv preprint arXiv:2601.08173},
+  year={2026},
+  arxiv={2601.08173},
+  bibtex_show = {true},
+  abbr        = {Preprint},
+  demo        = {https://github.com/KnowledgeXLab/EvoEnv}
+  selected    = {true},
+  abstract    = {The rapid evolution of Multi-modal Large Language Models (MLLMs) has advanced workflow automation; however, existing research mainly targets performance upper bounds in static environments, overlooking robustness for stochastic real-world deployment. We identify three key challenges: dynamic task scheduling, active exploration under uncertainty, and continuous learning from experience. To bridge this gap, we introduce \method{}, a dynamic evaluation environment that simulates a "trainee" agent continuously exploring a novel setting. Unlike traditional benchmarks, Trainee-Bench evaluates agents along three dimensions: (1) context-aware scheduling for streaming tasks with varying priorities; (2) prudent information acquisition to reduce hallucination via active exploration; and (3) continuous evolution by distilling generalized strategies from rule-based, dynamically generated tasks. Experiments show that cutting-edge agents have significant deficiencies in dynamic environments, especially in active exploration and continual learning. Our work establishes a framework for assessing agent reliability, shifting evaluation from static tests to realistic, production-oriented scenarios.}
+}
+
 @article{mei2025vision,
   title={Vision-Centric 4D Occupancy Forecasting and Planning via Implicit Residual World Models},
   author={Mei*, Jianbiao and Yang*, Yu and Yang, Xuemeng and Wen, Licheng and Lv, Jiajun and Shi, Botian and Liu Yong},
-  journal={arXiv preprint arXiv:2510.16729},
-  year={2025},
+  journal={2026 IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2026},
   arxiv={2510.16729},
   bibtex_show = {true},
-  abbr        = {Preprint},
+  abbr        = {ICRA},
+  demo        = {https://github.com/yuyang-cloud/Drive-OccWorld/tree/ir-wm}
   selected    = {true},
   abstract    = {End-to-end autonomous driving systems increasingly rely on vision-centric world models to understand and predict their environment. However, a common ineffectiveness in these models is the full reconstruction of future scenes, which expends significant capacity on redundantly modeling static backgrounds. To address this, we propose IR-WM, an Implicit Residual World Model that focuses on modeling the current state and evolution of the world. IR-WM first establishes a robust bird's-eye-view representation of the current state from the visual observation. It then leverages the BEV features from the previous timestep as a strong temporal prior and predicts only the "residual", i.e., the changes conditioned on the ego-vehicle's actions and scene context. To alleviate error accumulation over time, we further apply an alignment module to calibrate semantic and dynamic misalignments. Moreover, we investigate different forecasting-planning coupling schemes and demonstrate that the implicit future state generated by world models substantially improves planning accuracy. On the nuScenes benchmark, IR-WM achieves top performance in both 4D occupancy forecasting and trajectory planning.}
 }
@@ -25,11 +76,11 @@
 @article{chen2025iwr,
   title={IWR-Bench: Can LVLMs reconstruct interactive webpage from a user interaction video?},
   author={Chen, Yang and Liu, Minghao and Shen, Yufan and Li, Yunwen and Huang, Tianyuan and Fang, Xinyu and Zheng, Tianyu and Huang, Wenxuan and Yang, Cheng and Fu, Daocheng and others},
-  journal={arXiv preprint arXiv:2509.24709},
-  year={2025},
+  journal={International Conference on Learning Representations (ICLR)},
+  year={2026},
   arxiv={2509.24709},
   bibtex_show = {true},
-  abbr        = {Preprint},
+  abbr        = {ICLR},
   selected    = {false},
   abstract    = {The webpage-to-code task requires models to understand visual representations of webpages and generate corresponding code. However, existing benchmarks primarily focus on static screenshot-to-code tasks, thereby overlooking the dynamic interactions fundamental to real-world web applications. To address this limitation, this paper introduces IWR-Bench, a novel benchmark for evaluating the capabilities of Large Vision-Language Models (LVLMs) in interactive webpage reconstruction from video. IWR-Bench comprises 113 meticulously curated tasks from 100 real-world websites, with 1,001 actions and featuring diverse interaction complexities (e.g., web games), visual styles, and domains. Aligning with standard web development practices, each task includes not only user interaction videos but also all crawled static assets (e.g., images, videos). This benchmark evaluates models on two fundamental challenges: comprehensive multi-modal reasoning to infer interaction logic from video and assets, and advanced code generation to translate this logic into functional code. An agent-as-a-judge framework with a comprehensive metric system automatically assesses the functional correctness and visual fidelity of generated webpages. Extensive experiments on 28 LVLMs reveal a significant challenge: the best model achieves an overall score of only 36.35%, as functional correctness (24.39% IFS) lags significantly behind visual fidelity (64.25% VFS). These results highlight critical limitations in current models' ability to reason about temporal dynamics and synthesize event-driven logic, establishing IWR-Bench as a challenging frontier for vision-language research. The benchmark and evaluation code will be made publicly available. }
 }
