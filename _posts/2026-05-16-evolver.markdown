@@ -1,0 +1,14 @@
+---
+layout: post
+title: "EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle"
+date: 2026-05-16 00:00:00
+categories: publication
+authors: "Rong Wu, Xiaoman Wang, <strong>Jianbiao Mei</strong>, Pinlong Cai, Daocheng Fu, Cheng Yang, Licheng Wen, Xuemeng Yang, Yufan Shen, Yuxin Wang, Botian Shi"
+venue: "ICML"
+image: "images/pub/evolver.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2510.16079"
+code: "https://github.com/KnowledgeXLab/EvolveR"
+---
+
+Distilling and reusing interaction experience enables self-evolving LLM agents.

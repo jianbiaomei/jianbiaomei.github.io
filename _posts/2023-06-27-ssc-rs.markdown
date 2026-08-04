@@ -1,0 +1,14 @@
+---
+layout: post
+title: "SSC-RS: Elevate LiDAR Semantic Scene Completion with Representation Separation and BEV Fusion"
+date: 2023-06-27 00:00:00
+categories: publication
+authors: "<strong>Jianbiao Mei</strong>, Yu Yang, Mengmeng Wang, Tianxin Huang, Xuemeng Yang, Yong Liu"
+venue: "IROS"
+image: "images/pub/ssc-rs.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2306.15349"
+code: "https://github.com/Jieqianyu/SSC-RS"
+---
+
+Separating semantic and geometric representations with BEV fusion improves LiDAR semantic scene completion.

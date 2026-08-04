@@ -1,0 +1,15 @@
+---
+layout: post
+title: "UR-Bench: A Benchmark for Multi-Hop Reasoning over Ultra-High-Resolution Images"
+date: 2025-12-31 00:00:00
+categories: publication
+authors: "Siqi Li, Xinyu Cai, <strong>Jianbiao Mei</strong>, Nianchen Deng, Pinlong Cai, Licheng Wen, Yufan Shen, Xuemeng Yang, Botian Shi, Yong Liu"
+venue: "Preprint"
+image: "images/pub/ur-bench.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2601.08748"
+code: "https://github.com/KnowledgeXLab/UR-Bench"
+website: "https://knowledgexlab.github.io/UR-Bench/"
+---
+
+Evaluating multi-hop reasoning over ultra-high-resolution imagery reveals the limits of current multimodal models.

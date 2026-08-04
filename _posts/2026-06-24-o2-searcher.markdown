@@ -1,0 +1,14 @@
+---
+layout: post
+title: "O2-Searcher: A Searching-based Agent Model for Open-Domain Open-Ended Question Answering"
+date: 2026-06-24 00:00:00
+categories: publication
+authors: "<strong>Jianbiao Mei*</strong>, Tao Hu*, Daocheng Fu*, Licheng Wen, Xuemeng Yang, Rong Wu, Pinlong Cai, Xinyu Cai, Xing Gao, Yu Yang, Chengjun Xie, Botian Shi, Yong Liu, Yu Qiao"
+venue: "TMLR"
+image: "images/pub/o2-searcher.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2505.16582"
+code: "https://github.com/KnowledgeXLab/O2-Searcher"
+---
+
+Training search agents with reinforcement learning enables open-domain open-ended question answering.

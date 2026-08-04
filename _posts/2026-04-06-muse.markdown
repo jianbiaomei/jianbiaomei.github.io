@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Learning on the Job: An Experience-Driven Self-Evolving Agent for Long-Horizon Tasks"
+date: 2026-04-06 00:00:00
+categories: publication
+authors: "Cheng Yang, Xuemeng Yang, Licheng Wen, Daocheng Fu, <strong>Jianbiao Mei</strong>, Rong Wu, Pinlong Cai, Yufan Shen, Nianchen Deng, Botian Shi, Yu Qiao, Haifeng Li"
+venue: "ACL Findings"
+image: "images/pub/muse.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2510.08002"
+code: "https://github.com/KnowledgeXLab/MUSE"
+---
+
+Accumulating hierarchical experience enables MUSE to self-evolve on long-horizon productivity tasks.

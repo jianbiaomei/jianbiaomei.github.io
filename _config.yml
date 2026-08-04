@@ -1,0 +1,20 @@
+# Site settings
+name: Jianbiao Mei
+url: "https://jianbiaomei.github.io"
+permalink: /posts/:title/
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - command.txt
+  - todo.txt
+  - _temp/index.html
+  - _temp/

@@ -1,0 +1,14 @@
+---
+layout: post
+title: "DQFormer: Towards Unified LiDAR Panoptic Segmentation with Decoupled Queries"
+date: 2025-04-08 00:00:00
+categories: publication
+authors: "Yu Yang*, <strong>Jianbiao Mei*</strong>, Liang Liu, Siliang Du, Yilin Xiao, Jongwon Ra, Yong Liu, Xiao Xu, Huifeng Wu"
+venue: "TGRS"
+image: "images/pub/dqformer.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2408.15813"
+code: "https://github.com/yuyang-cloud/DQFormer"
+---
+
+Decoupling thing and stuff queries enables unified LiDAR panoptic segmentation.

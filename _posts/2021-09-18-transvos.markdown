@@ -1,0 +1,14 @@
+---
+layout: post
+title: "TransVOS: Video Object Segmentation with Transformers"
+date: 2021-09-18 00:00:00
+categories: publication
+authors: "<strong>Jianbiao Mei*</strong>, Mengmeng Wang*, Yeneng Lin, Yi Yuan, Yong Liu"
+venue: "Preprint"
+image: "images/pub/transvos.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2106.00588"
+code: "https://github.com/sallymmx/TransVOS"
+---
+
+Modeling spatiotemporal relationships with transformers enables a unified pipeline for video object segmentation.

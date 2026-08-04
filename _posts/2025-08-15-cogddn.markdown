@@ -1,0 +1,15 @@
+---
+layout: post
+title: "CogDDN: A Cognitive Demand-Driven Navigation with Decision Optimization and Dual-Process Thinking"
+date: 2025-08-15 00:00:00
+categories: publication
+authors: "Yuehao Huang, Liang Liu, Shuangming Lei, Yukai Ma, Hao Su, <strong>Jianbiao Mei</strong>, Pengxiang Zhao, Yaqing Gu, Yong Liu, Jiajun Lv"
+venue: "ACM MM"
+image: "images/pub/cogddn.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2507.11334"
+code: "https://github.com/YuehaoHuang/CogDDN"
+website: "https://yuehaohuang.github.io/CogDDN"
+---
+
+Selecting goal-relevant objects with dual-process reasoning enables demand-driven robot navigation.

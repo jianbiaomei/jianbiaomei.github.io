@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Camera-based 3D Semantic Scene Completion with Sparse Guidance Network"
+date: 2024-09-29 00:00:00
+categories: publication
+authors: "<strong>Jianbiao Mei</strong>, Yu Yang, Mengmeng Wang, Junyu Zhu, Jongwon Ra, Yukai Ma, Laijian Li, Yong Liu"
+venue: "TIP"
+image: "images/pub/sgn.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2312.05752"
+code: "https://github.com/Jieqianyu/SGN"
+---
+
+Propagating sparse semantic and geometric guidance enables camera-based 3D semantic scene completion.

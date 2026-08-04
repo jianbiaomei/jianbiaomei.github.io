@@ -1,0 +1,14 @@
+---
+layout: post
+title: "KG-TRACES: Enhancing Large Language Models with Knowledge Graph-constrained Trajectory Reasoning and Attribution Supervision"
+date: 2025-10-20 00:00:00
+categories: publication
+authors: "Rong Wu, Pinlong Cai, <strong>Jianbiao Mei</strong>, Licheng Wen, Tao Hu, Xuemeng Yang, Daocheng Fu, Botian Shi"
+venue: "Preprint"
+image: "images/pub/kg-traces.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2506.00783"
+code: "https://github.com/KnowledgeXLab/KG-TRACES"
+---
+
+Constrained trajectory reasoning over knowledge graphs improves attribution-aware large language model reasoning.

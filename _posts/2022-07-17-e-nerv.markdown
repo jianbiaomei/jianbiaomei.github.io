@@ -1,0 +1,14 @@
+---
+layout: post
+title: "E-NeRV: Expedite Neural Video Representation with Disentangled Spatial-Temporal Context"
+date: 2022-07-17 00:00:00
+categories: publication
+authors: "Zizhang Li, Mengmeng Wang, Huaijin Pi, Kechun Xu, <strong>Jianbiao Mei</strong>, Yong Liu"
+venue: "ECCV"
+image: "images/pub/e-nerv.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2207.08132"
+code: "https://github.com/kyleleey/E-NeRV"
+---
+
+Disentangling spatial and temporal context accelerates neural video representation with fewer redundant parameters.

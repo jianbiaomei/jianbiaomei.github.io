@@ -1,0 +1,15 @@
+---
+layout: post
+title: "LeapVAD: A Leap in Autonomous Driving via Cognitive Perception and Dual-Process Thinking"
+date: 2025-01-14 00:00:00
+categories: publication
+authors: "Yukai Ma, Tiantian Wei, Naiting Zhong, <strong>Jianbiao Mei</strong>, Tao Hu, Licheng Wen, Xuemeng Yang, Botian Shi, Yong Liu"
+venue: "TNNLS"
+image: "images/pub/leapvad.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2501.08168"
+code: "https://github.com/PJLab-ADG/LeapVAD"
+website: "https://pjlab-adg.github.io/LeapVAD/"
+---
+
+Combining cognitive perception with dual-process thinking improves autonomous driving decision making.

@@ -1,0 +1,14 @@
+---
+layout: post
+title: "A Coarse-to-Fine Place Recognition Approach using Attention-guided Descriptors and Overlap Estimation"
+date: 2024-07-23 00:00:00
+categories: publication
+authors: "Chencan Fu, Lin Li, <strong>Jianbiao Mei</strong>, Yukai Ma, Linpeng Peng, Xiangrui Zhao, Yong Liu"
+venue: "ICRA"
+image: "images/pub/cfpr.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2303.06881"
+code: "https://github.com/fcchit/CFPR"
+---
+
+Combining attention-guided descriptors with overlap estimation enables coarse-to-fine place recognition.

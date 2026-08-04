@@ -1,0 +1,14 @@
+---
+layout: post
+title: "SPIRAL: Self-Evolving Action-Conditioned Video Generation via Reflective Planning Agents"
+date: 2026-05-21 00:00:00
+categories: publication
+authors: "Yu Yang*, Yue Liao*, <strong>Jianbiao Mei*</strong>, Baisen Wang*, Xuemeng Yang, Licheng Wen, Jiangning Zhang, Xiangtai Li, Liang Lv, Hanlin Chen, Botian Shi, Yong Liu, Shuicheng Yan, Gim Hee Lee"
+venue: "arXiv"
+image: "images/pub/spiral.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2603.08403"
+website: "https://yuyang-cloud.github.io/spiral"
+---
+
+Sequential planning and iterative reflection enable self-evolving action-conditioned video generation for long-horizon tasks.

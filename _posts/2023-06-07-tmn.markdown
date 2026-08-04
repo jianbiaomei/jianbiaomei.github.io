@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Fast Real-Time Video Object Segmentation with a Tangled Memory Network"
+date: 2023-06-07 00:00:00
+categories: publication
+authors: "<strong>Jianbiao Mei*</strong>, Mengmeng Wang*, Yu Yang, Yanjun Li, Yong Liu"
+venue: "ACM TIST"
+image: "images/pub/tmn.png"
+highlight: false
+code: "https://github.com/Jieqianyu/TMN"
+pdf: "https://dl.acm.org/doi/abs/10.1145/3585076"
+---
+
+Organizing compact mask-aware memory enables fast real-time video object segmentation.

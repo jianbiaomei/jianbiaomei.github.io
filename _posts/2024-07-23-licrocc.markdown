@@ -1,0 +1,15 @@
+---
+layout: post
+title: "LiCROcc: Teach Radar for Accurate Semantic Occupancy Prediction using LiDAR and Camera"
+date: 2024-07-23 00:00:00
+categories: publication
+authors: "Yukai Ma*, <strong>Jianbiao Mei*</strong>, Xuemeng Yang, Licheng Wen, Weihua Xu, Jiangning Zhang, Botian Shi, Yong Liu, Xingxing Zuo"
+venue: "RAL"
+image: "images/pub/licrocc.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2407.16197"
+code: "https://github.com/HR-zju/LiCROcc"
+website: "https://hr-zju.github.io/LiCROcc"
+---
+
+Distilling LiDAR-camera occupancy knowledge into radar inputs improves robust semantic occupancy prediction.

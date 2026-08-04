@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Delving Deeper Into Mask Utilization in Video Object Segmentation"
+date: 2022-01-02 00:00:00
+categories: publication
+authors: "Mengmeng Wang*, <strong>Jianbiao Mei*</strong>, Lina Liu, Guanzhong Tian, Yong Liu, Zaisheng Pan"
+venue: "TIP"
+image: "images/pub/maskvos.png"
+highlight: false
+code: "https://github.com/Jieqianyu/MaskVOS"
+pdf: "https://ieeexplore.ieee.org/document/9904497"
+---
+
+Exploiting reference masks more effectively improves matching and boundary reasoning for video object segmentation.

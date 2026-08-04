@@ -1,0 +1,15 @@
+---
+layout: post
+title: "SPIKE: An Adaptive Dual Controller Framework for Cost-Efficient Long-Horizon Game Agents"
+date: 2026-05-18 00:00:00
+categories: publication
+authors: "Wencan Jiang, Jiangning Zhang, <strong>Jianbiao Mei</strong>, Jinzhuo Liu, Yu Yang, Xiaobin Hu, Zhucun Xue, Yong Liu, Dacheng Tao"
+venue: "arXiv"
+image: "images/pub/spike.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2605.18636"
+code: "https://github.com/wencanjiang/SPIKE"
+website: "https://wencanjiang.github.io/projects/SPIKE/"
+---
+
+Adaptive switching between strategic planning and reactive execution improves long-horizon game agents under token and latency budgets.

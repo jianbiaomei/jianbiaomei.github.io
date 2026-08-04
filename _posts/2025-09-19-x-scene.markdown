@@ -1,0 +1,15 @@
+---
+layout: post
+title: "X-Scene: Large-Scale Driving Scene Generation with High Fidelity and Flexible Controllability"
+date: 2025-09-19 00:00:00
+categories: publication
+authors: "Yu Yang, Alan Liang, <strong>Jianbiao Mei</strong>, Yukai Ma, Yong Liu, Gim Hee Lee"
+venue: "NeurIPS"
+image: "images/pub/x-scene.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2506.13558"
+code: "https://github.com/yuyang-cloud/X-Scene"
+website: "https://x-scene.github.io/"
+---
+
+Generating 3D scenes from semantic and textual controls enables high-fidelity controllable driving scene synthesis.

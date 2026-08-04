@@ -1,0 +1,15 @@
+---
+layout: post
+title: "M2-CLIP: A Multimodal, Multi-task Adapting Framework for Video Action Recognition"
+date: 2024-01-22 00:00:00
+categories: publication
+authors: "Mengmeng Wang, Jiazheng Xing, Boyuan Jiang, Jun Chen, <strong>Jianbiao Mei</strong>, Xingxing Zuo, Guang Dai, Jingdong Wang, Yong Liu"
+venue: "AAAI"
+note: "Oral"
+image: "images/pub/m2clip.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2401.11649"
+code: "https://github.com/sallymmx/m2clip"
+---
+
+Adapting multimodal CLIP features with multi-task supervision improves video action recognition and transfer.

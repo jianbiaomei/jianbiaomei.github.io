@@ -1,0 +1,14 @@
+---
+layout: post
+title: "PANet: LiDAR Panoptic Segmentation with Sparse Instance Proposal and Aggregation"
+date: 2023-06-27 00:00:00
+categories: publication
+authors: "<strong>Jianbiao Mei*</strong>, Yu Yang*, Mengmeng Wang, Xiaojun Hou, Laijian Li, Yong Liu"
+venue: "IROS"
+image: "images/pub/panet.png"
+highlight: false
+arxiv: "https://arxiv.org/abs/2306.15348"
+code: "https://github.com/Jieqianyu/PANet"
+---
+
+Generating sparse instance proposals and aggregating fragments enables efficient LiDAR panoptic segmentation.
