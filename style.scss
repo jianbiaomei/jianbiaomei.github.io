@@ -211,6 +211,46 @@ span.highlight {
   margin-top: 0;
 }
 
+@media (max-width: 640px) {
+  .page-container {
+    max-width: none;
+    width: calc(100% - 20px);
+  }
+
+  .section-heading-cell {
+    padding: 14px 4px 16px;
+  }
+
+  .publication-table {
+    border-spacing: 0 12px;
+  }
+
+  .publication-image-cell {
+    width: 22%;
+    min-width: 72px;
+    padding: 8px 6px 8px 0;
+    text-align: center;
+  }
+
+  .publication-image {
+    max-width: 100%;
+  }
+
+  .publication-copy {
+    width: 78%;
+    padding: 6px 0 8px 6px;
+  }
+
+  .news-scroll {
+    max-height: 180px;
+    padding-right: 4px;
+  }
+
+  .service-list {
+    padding-left: 20px;
+  }
+}
+
 @media (min-width: 1800px) {
   body,
   td,
