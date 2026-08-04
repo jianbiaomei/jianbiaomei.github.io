@@ -12,12 +12,12 @@
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <table class="page-container">
     <tr style="padding:0px">
       <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table class="section-table intro-table">
           <tr style="padding:0px">
-            <td style="padding:2.5%;width:68%;vertical-align:middle">
+            <td class="intro-copy">
               <p class="name" style="text-align:center;">Jianbiao Mei</p>
               <p>
                 I received my Ph.D. in June 2026 from the Department of Control Science and Engineering at
@@ -37,15 +37,15 @@
                 <a href="https://github.com/Jieqianyu">GitHub</a>
               </p>
             </td>
-            <td style="padding:2.5%;width:32%;max-width:32%;text-align:center">
-              <a href="images/jianbiao_mei.jpg"><img style="width:100%;max-width:180px;object-fit:cover;border-radius:0;" alt="profile photo" src="images/jianbiao_mei.jpg"></a>
+            <td class="intro-photo-cell">
+              <a href="images/jianbiao_mei.jpg"><img class="profile-photo" alt="profile photo" src="images/jianbiao_mei.jpg"></a>
             </td>
           </tr>
         </table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table class="section-table">
           <tr>
-            <td style="padding:16px;width:100%;vertical-align:middle">
+            <td class="section-heading-cell">
               <h2>News</h2>
               <div class="news-scroll">
               <p class="news-item"><strong>Jul 2026</strong> - One paper was accepted to WAICA 2026: <a href="https://waica2026.worldaic.com.cn/program/accepted-paper-list-main-conference/">IG-Searcher</a>.</p>
@@ -68,9 +68,9 @@
           </tr>
         </table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table class="section-table">
           <tr>
-            <td style="padding:16px;width:100%;vertical-align:middle">
+            <td class="section-heading-cell">
               <h2>Research</h2>
               <p>
                 * indicates equal contributions, † indicates equal advising.
@@ -79,14 +79,14 @@
           </tr>
         </table>
 
-        <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table class="section-table publication-table">
           {% for post in site.posts %}
           {% if post.categories contains 'publication' %}
           <tr class="{% if post.highlight %}publication-highlight{% endif %}">
-            <td style="padding:16px;width:20%;vertical-align:middle;min-width:120px">
-              <img src="{{ post.image }}" alt="project image" style="width:auto;height:auto;max-width:100%;border-radius:4px;" />
+            <td class="publication-image-cell">
+              <img class="publication-image" src="{{ post.image }}" alt="project image" />
             </td>
-            <td style="padding:8px;width:80%;vertical-align:middle">
+            <td class="publication-copy">
               {% assign title_link = post.arxiv | default: post.pdf | default: post.website | default: post.code %}
               {% if title_link %}<a href="{{ title_link }}">{% endif %}<span class="papertitle">{{ post.title }}</span>{% if title_link %}</a>{% endif %}
               <br>
@@ -118,18 +118,18 @@
           {% endfor %}
         </table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table class="section-table">
           <tr>
-            <td style="padding:16px;width:100%;vertical-align:middle">
+            <td class="section-heading-cell">
               <h2>Service</h2>
-              <p>
-              Reviewer of TPAMI, TIP, TMM, TCSVT, RAL, CVPR, ECCV, NeurIPS, ICLR, AAAI, ACM MM, BMVC, ICRA, IROS, et al.
-              </p>
+              <ul class="service-list">
+                <li>Reviewer of TPAMI, TIP, TMM, TCSVT, RAL, CVPR, ECCV, NeurIPS, ICLR, AAAI, ACM MM, BMVC, ICRA, IROS, et al.</li>
+              </ul>
             </td>
           </tr>
         </table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table class="section-table">
           <tr>
             <td style="padding:0px">
               <br>

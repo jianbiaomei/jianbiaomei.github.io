@@ -74,6 +74,71 @@ h1 {
 
 }
 
+.page-container,
+.section-table {
+  width: 100%;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.page-container {
+  max-width: 800px;
+}
+
+.publication-table {
+  border-spacing: 0 10px;
+}
+
+.intro-copy {
+  padding: 2.5%;
+  width: 68%;
+  vertical-align: middle;
+}
+
+.intro-photo-cell {
+  padding: 2.5%;
+  width: 32%;
+  max-width: 32%;
+  text-align: center;
+}
+
+.section-heading-cell {
+  padding: 14px 16px 16px;
+  width: 100%;
+  vertical-align: middle;
+  border-top: 1px solid #000;
+}
+
+.profile-photo {
+  width: 100%;
+  max-width: 180px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.publication-image-cell {
+  padding: 16px;
+  width: 29%;
+  min-width: 175px;
+  vertical-align: middle;
+}
+
+.publication-image {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.publication-copy {
+  padding: 8px;
+  width: 71%;
+  vertical-align: middle;
+}
+
 .one {
   width: 160px;
   height: 160px;
@@ -130,6 +195,11 @@ span.highlight {
   font-weight: 700;
 }
 
+.service-list {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+
 .news-scroll {
   max-height: 120px;
   overflow-y: auto;
@@ -139,4 +209,52 @@ span.highlight {
 
 .news-scroll .news-item:first-child {
   margin-top: 0;
+}
+
+@media (min-width: 1800px) {
+  body,
+  td,
+  th,
+  tr,
+  p,
+  a,
+  strong,
+  .papertitle {
+    font-size: 15.5px;
+  }
+
+  .page-container {
+    max-width: 980px;
+  }
+
+  .name {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 15.5px;
+  }
+
+  .profile-photo {
+    max-width: 220px;
+  }
+
+  .publication-image-cell {
+    width: 34%;
+    min-width: 235px;
+    padding: 18px;
+  }
+
+  .publication-copy {
+    width: 66%;
+    padding: 10px;
+  }
+
+  .news-scroll {
+    max-height: 150px;
+  }
 }
