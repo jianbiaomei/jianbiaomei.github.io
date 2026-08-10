@@ -225,20 +225,29 @@ span.highlight {
     border-spacing: 0 12px;
   }
 
+  .publication-table tr {
+    display: block;
+  }
+
   .publication-image-cell {
-    width: 22%;
-    min-width: 72px;
-    padding: 8px 6px 8px 0;
+    display: block;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 10px 0 6px;
     text-align: center;
   }
 
   .publication-image {
-    max-width: 100%;
+    width: 100%;
+    max-width: 320px;
   }
 
   .publication-copy {
-    width: 78%;
-    padding: 6px 0 8px 6px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 0 12px;
   }
 
   .news-scroll {
