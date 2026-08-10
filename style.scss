@@ -221,6 +221,26 @@ span.highlight {
     padding: 14px 4px 16px;
   }
 
+  .intro-table tr {
+    display: block;
+  }
+
+  .intro-copy,
+  .intro-photo-cell {
+    display: block;
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
+  }
+
+  .intro-copy {
+    padding: 2.5% 0 10px;
+  }
+
+  .intro-photo-cell {
+    padding: 8px 0 14px;
+  }
+
   .publication-table {
     border-spacing: 0 12px;
   }
