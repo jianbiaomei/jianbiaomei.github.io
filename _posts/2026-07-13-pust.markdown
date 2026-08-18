@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Proxy Exploration and Reusable Guidance: A Modular LLM Post-Training Paradigm via Proxy-Guided Update Signals"
+title: "Proxy OPD: On-Policy Distillation with Transferable Relative Proxy Update"
 date: 2026-07-13 00:00:00
 categories: publication
-authors: "Daocheng Fu, Rong Wu, Yu Yang, Xuemeng Yang, <strong>Jianbiao Mei</strong>, Licheng Wen, Pinlong Cai, Yong Liu, Botian Shi, Yu Qiao"
+authors: "Daocheng Fu, Rong Wu, Yu Yang, <strong>Jianbiao Mei</strong>, Licheng Wen, Pinlong Cai, Xuemeng Yang, Yong Liu, Botian Shi, Yu Qiao"
 venue: "arXiv"
 image: "images/pub/pust.png"
 highlight: false
