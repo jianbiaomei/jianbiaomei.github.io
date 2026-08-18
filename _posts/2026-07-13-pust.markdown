@@ -11,4 +11,4 @@ arxiv: "https://arxiv.org/abs/2607.11505"
 code: "https://github.com/KnowledgeXLab/PUST"
 ---
 
-Proxy-guided update signal transfer decouples low-cost exploration from reusable policy alignment for LLM post-training.
+Reuses relative policy improvements from proxy optimization to strengthen target LLMs without requiring stronger expert models.
