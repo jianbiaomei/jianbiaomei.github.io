@@ -6,7 +6,7 @@ categories: publication
 authors: "Rong Wu, Xiaoman Wang, <strong>Jianbiao Mei</strong>, Pinlong Cai, Daocheng Fu, Cheng Yang, Licheng Wen, Xuemeng Yang, Yufan Shen, Yuxin Wang, Botian Shi"
 venue: "ICML"
 image: "images/pub/evolver.png"
-highlight: false
+highlight: true
 arxiv: "https://arxiv.org/abs/2510.16079"
 code: "https://github.com/KnowledgeXLab/EvolveR"
 ---

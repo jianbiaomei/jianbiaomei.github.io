@@ -6,7 +6,7 @@ categories: publication
 authors: "Mengmeng Wang*, <strong>Jianbiao Mei*</strong>, Lina Liu, Guanzhong Tian, Yong Liu, Zaisheng Pan"
 venue: "TIP"
 image: "images/pub/maskvos.png"
-highlight: false
+highlight: true
 code: "https://github.com/Jieqianyu/MaskVOS"
 pdf: "https://ieeexplore.ieee.org/document/9904497"
 ---

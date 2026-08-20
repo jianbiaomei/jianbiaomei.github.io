@@ -6,7 +6,7 @@ categories: publication
 authors: "Mengmeng Wang, Jiazheng Xing, <strong>Jianbiao Mei</strong>, Yong Liu, Yunliang Jiang"
 venue: "TNNLS"
 image: "images/pub/actionclip.png"
-highlight: false
+highlight: true
 code: "https://github.com/sallymmx/ActionCLIP"
 pdf: "https://ieeexplore.ieee.org/document/10323592"
 ---

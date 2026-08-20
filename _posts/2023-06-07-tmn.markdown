@@ -6,7 +6,7 @@ categories: publication
 authors: "<strong>Jianbiao Mei*</strong>, Mengmeng Wang*, Yu Yang, Yanjun Li, Yong Liu"
 venue: "ACM TIST"
 image: "images/pub/tmn.png"
-highlight: false
+highlight: true
 code: "https://github.com/Jieqianyu/TMN"
 pdf: "https://dl.acm.org/doi/abs/10.1145/3585076"
 ---

@@ -6,7 +6,7 @@ categories: publication
 authors: "Daocheng Fu*, <strong>Jianbiao Mei*</strong>, Rong Wu*, Xuemeng Yang*, Jia Xu, Ding Wang, Pinlong Cai, Yong Liu, Licheng Wen, Botian Shi"
 venue: "ACL Findings"
 image: "images/pub/traineebench.png"
-highlight: false
+highlight: true
 arxiv: "https://arxiv.org/abs/2601.08173"
 code: "https://github.com/KnowledgeXLab/EvoEnv"
 ---

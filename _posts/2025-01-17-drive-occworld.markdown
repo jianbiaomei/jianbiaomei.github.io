@@ -7,7 +7,7 @@ authors: "Yu Yang*, <strong>Jianbiao Mei*</strong>, Yukai Ma, Siliang Du, Wenqin
 venue: "AAAI"
 note: "Oral"
 image: "images/pub/drive-occworld.png"
-highlight: false
+highlight: true
 arxiv: "https://arxiv.org/abs/2408.14197"
 code: "https://github.com/yuyang-cloud/Drive-OccWorld"
 website: "https://drive-occworld.github.io"

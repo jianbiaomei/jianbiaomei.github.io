@@ -6,7 +6,7 @@ categories: publication
 authors: "<strong>Jianbiao Mei*</strong>, Tao Hu*, Licheng Wen, Xuemeng Yang, Yu Yang, Tiantian Wei, Yukai Ma, Min Dou, Botian Shi, Yong Liu"
 venue: "Preprint"
 image: "images/pub/dreamforge.png"
-highlight: false
+highlight: true
 arxiv: "https://arxiv.org/abs/2409.04003"
 website: "https://pjlab-adg.github.io/DriveArena/dreamforge"
 ---

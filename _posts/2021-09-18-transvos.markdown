@@ -6,7 +6,7 @@ categories: publication
 authors: "<strong>Jianbiao Mei*</strong>, Mengmeng Wang*, Yeneng Lin, Yi Yuan, Yong Liu"
 venue: "Preprint"
 image: "images/pub/transvos.png"
-highlight: false
+highlight: true
 arxiv: "https://arxiv.org/abs/2106.00588"
 code: "https://github.com/sallymmx/TransVOS"
 ---

@@ -6,7 +6,7 @@ categories: publication
 authors: "Daocheng Fu*, <strong>Jianbiao Mei*</strong>, Licheng Wen, Xuemeng Yang, Rong Wu, Tao Hu, Pinlong Cai, Botian Shi, Yong Liu, Yu Qiao"
 venue: "WAICA"
 image: "images/pub/ig-searcher.png"
-highlight: false
+highlight: true
 website: "https://waica2026.worldaic.com.cn/program/accepted-paper-list-main-conference/"
 ---
 

@@ -6,7 +6,7 @@ categories: publication
 authors: "<strong>Jianbiao Mei</strong>, Yu Yang, Mengmeng Wang, Tianxin Huang, Xuemeng Yang, Yong Liu"
 venue: "IROS"
 image: "images/pub/ssc-rs.png"
-highlight: false
+highlight: true
 arxiv: "https://arxiv.org/abs/2306.15349"
 code: "https://github.com/Jieqianyu/SSC-RS"
 ---

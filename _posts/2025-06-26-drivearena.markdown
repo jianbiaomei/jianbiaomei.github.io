@@ -6,7 +6,7 @@ categories: publication
 authors: "Xuemeng Yang*, Licheng Wen*, Tiantian Wei*, Yukai Ma*, <strong>Jianbiao Mei*</strong>, Xin Li*, Wenjie Lei, Daocheng Fu, Pinlong Cai, Min Dou, Botian Shi, Liang He, Yong Liu, Yu Qiao"
 venue: "ICCV"
 image: "images/pub/drivearena.png"
-highlight: false
+highlight: true
 arxiv: "https://arxiv.org/abs/2408.00415"
 code: "https://github.com/pjlab-adg/DriveArena"
 website: "https://pjlab-adg.github.io/DriveArena/"

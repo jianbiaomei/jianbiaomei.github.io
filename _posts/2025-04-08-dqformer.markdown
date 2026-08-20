@@ -6,7 +6,7 @@ categories: publication
 authors: "Yu Yang*, <strong>Jianbiao Mei*</strong>, Liang Liu, Siliang Du, Yilin Xiao, Jongwon Ra, Yong Liu, Xiao Xu, Huifeng Wu"
 venue: "TGRS"
 image: "images/pub/dqformer.png"
-highlight: false
+highlight: true
 arxiv: "https://arxiv.org/abs/2408.15813"
 code: "https://github.com/yuyang-cloud/DQFormer"
 ---

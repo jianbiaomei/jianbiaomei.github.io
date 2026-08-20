@@ -6,7 +6,7 @@ categories: publication
 authors: "Daocheng Fu, Rong Wu, Yu Yang, <strong>Jianbiao Mei</strong>, Licheng Wen, Pinlong Cai, Xuemeng Yang, Yong Liu, Botian Shi, Yu Qiao"
 venue: "arXiv"
 image: "images/pub/pust.png"
-highlight: false
+highlight: true
 arxiv: "https://arxiv.org/abs/2607.11505"
 code: "https://github.com/KnowledgeXLab/PUST"
 ---

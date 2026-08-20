@@ -6,7 +6,7 @@ categories: publication
 authors: "Yukai Ma*, <strong>Jianbiao Mei*</strong>, Xuemeng Yang, Licheng Wen, Weihua Xu, Jiangning Zhang, Botian Shi, Yong Liu, Xingxing Zuo"
 venue: "RAL"
 image: "images/pub/licrocc.png"
-highlight: false
+highlight: true
 arxiv: "https://arxiv.org/abs/2407.16197"
 code: "https://github.com/HR-zju/LiCROcc"
 website: "https://hr-zju.github.io/LiCROcc"

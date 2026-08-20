@@ -6,7 +6,7 @@ categories: publication
 authors: "<strong>Jianbiao Mei*</strong>, Yu Yang*, Xuemeng Yang, Licheng Wen, Jiajun Lv, Botian Shi, Yong Liu"
 venue: "ICRA"
 image: "images/pub/ir-wm.png"
-highlight: false
+highlight: true
 arxiv: "https://arxiv.org/abs/2510.16729"
 code: "https://github.com/yuyang-cloud/Drive-OccWorld/tree/ir-wm"
 ---

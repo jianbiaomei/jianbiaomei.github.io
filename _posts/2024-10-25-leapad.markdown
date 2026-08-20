@@ -6,7 +6,7 @@ categories: publication
 authors: "<strong>Jianbiao Mei*</strong>, Yukai Ma*, Xuemeng Yang, Licheng Wen, Xinyu Cai, Xin Li, Daocheng Fu, Bo Zhang, Pinlong Cai, Min Dou, Botian Shi, Liang He, Yong Liu, Yu Qiao"
 venue: "NeurIPS"
 image: "images/pub/leapad.png"
-highlight: false
+highlight: true
 arxiv: "https://arxiv.org/abs/2405.15324"
 code: "https://github.com/pjlab-adg/leapad"
 website: "https://pjlab-adg.github.io/LeapAD/"

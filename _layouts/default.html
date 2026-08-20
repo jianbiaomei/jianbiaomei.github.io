@@ -70,7 +70,13 @@
         <table class="section-table">
           <tr>
             <td class="section-heading-cell">
-              <h2>Research</h2>
+              <div class="research-heading">
+                <h2>Research</h2>
+                <div class="publication-filters" role="group" aria-label="Filter publications">
+                  <button class="publication-filter is-active" type="button" data-publication-filter="selected" aria-pressed="true">Selected</button>
+                  <button class="publication-filter" type="button" data-publication-filter="all" aria-pressed="false">All</button>
+                </div>
+              </div>
               <p>
                 * indicates equal contributions, † indicates equal advising.
               </p>
@@ -78,14 +84,14 @@
           </tr>
         </table>
 
-        <table class="section-table publication-table">
+        <div class="publication-grid" id="publications" data-active-filter="selected">
           {% for post in site.posts %}
           {% if post.categories contains 'publication' %}
-          <tr class="{% if post.highlight %}publication-highlight{% endif %}">
-            <td class="publication-image-cell">
+          <article class="publication-card{% if post.highlight %} publication-highlight{% endif %}" data-publication-highlight="{% if post.highlight %}true{% else %}false{% endif %}"{% unless post.highlight %} hidden{% endunless %}>
+            <div class="publication-image-cell">
               <img class="publication-image" src="{{ post.image }}" alt="project image" />
-            </td>
-            <td class="publication-copy">
+            </div>
+            <div class="publication-copy">
               {% assign title_link = post.arxiv | default: post.pdf | default: post.website | default: post.code %}
               {% if title_link %}<a href="{{ title_link }}">{% endif %}<span class="papertitle">{{ post.title }}</span>{% if title_link %}</a>{% endif %}
               <br>
@@ -111,11 +117,11 @@
               {% endif %}
               <p></p>
               {{ post.excerpt }}
-            </td>
-          </tr>
+            </div>
+          </article>
           {% endif %}
           {% endfor %}
-        </table>
+        </div>
 
         <table class="section-table">
           <tr>
@@ -141,5 +147,24 @@
       </td>
     </tr>
   </table>
+  <script>
+    document.querySelectorAll('[data-publication-filter]').forEach(function (button) {
+      button.addEventListener('click', function () {
+        var filter = button.dataset.publicationFilter;
+
+        document.querySelectorAll('[data-publication-filter]').forEach(function (filterButton) {
+          var isActive = filterButton === button;
+          filterButton.classList.toggle('is-active', isActive);
+          filterButton.setAttribute('aria-pressed', isActive.toString());
+        });
+
+        document.querySelectorAll('[data-publication-highlight]').forEach(function (publication) {
+          publication.hidden = filter === 'selected' && publication.dataset.publicationHighlight !== 'true';
+        });
+
+        document.getElementById('publications').dataset.activeFilter = filter;
+      });
+    });
+  </script>
 </body>
 </html>
